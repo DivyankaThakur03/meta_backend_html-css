@@ -1,0 +1,29 @@
+p{
+    color: aqua;
+}
+
+#latest{
+    background-color: palegreen;
+}
+
+.navigation{
+    margin: 10px;
+}
+
+p.navigation{ 
+    background-color:coral;
+}
+/* Descendant Selectors */
+/*#blog h1{
+    color: paleturquoise;
+}
+*/
+#blog div h1{
+    color:darkblue ;
+}
+
+/* Child Selectors */
+/* Child selectors are more specific than descendant selectors. They only select elements that are immediate descendants (children) of a selector (the parent). */
+#blog > h1​ {
+    color: blueviolet;
+  }
